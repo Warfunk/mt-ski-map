@@ -1,0 +1,45 @@
+html {
+    min-height: 100%;
+}
+
+#map {
+    text-align: center;
+}
+
+#header {
+    color: rgb(234, 239, 245);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(60, 60, 241), rgb(235, 237, 250));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%
+}
+
+#users-resorts {
+    color: rgb(26, 105, 201);
+    text-align: center;
+}
+
+#resort-list {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#resort {
+    display: inline-block;
+    text-align: center;
+}
+
+.list-image {
+    max-width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

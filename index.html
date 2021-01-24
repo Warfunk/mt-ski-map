@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='En'>
+    
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ski Montana!</title>
+    </head>
+    <div class="container-fluid">
+    <body>
+        <h1 id="header">Welcome to Ski Resorts of Montana</h1>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1C21FV--DIdZAikAlQftKgDV8toC2Wcgz" width="640" height="480"></iframe>
+        </div>
+        <div id="users-resorts">
+            <h2>My Resorts</h2>
+            <ul id="resort-list">
+                <script src="add.js"></script>
+            </ul>
+            <div>
+            <input type="text" id="resort" placeholder="Name of Resort">
+            <input type="button" id="add" value="Add Resort">
+            <script src="add.js"></script>
+            </div>
+        </div>
+    <div>
+        <h3>The snow totals are current as of <script>document.write( Date())</script></h3>
+    </div>
+    <div id="react1"></div>
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src='react111.js'></script>
+    </body>
+    </div>
+</html>
